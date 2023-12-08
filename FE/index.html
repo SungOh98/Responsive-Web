@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sunflower:wght@300&display=swap" rel="stylesheet">
     <style>
         /* 전역 */
         * {
             padding :0px;
             margin : 0px;
+            
+            font-family: 'Sunflower', sans-serif;
         }
         
         a {
@@ -165,6 +170,7 @@
 
         .menu-container:nth-child(2n) {
             background-color: bisque;
+            color : #570e0e;
         }
 
         .skill-item {
@@ -175,9 +181,13 @@
             padding : 30px 0px;
         }
 
-        .contact-item {
-            padding : 30px 0px;
+        .form-controller {
+            appearance: none;
+            border-radius: 0.25rem;
+            padding : 0.375rem 0.75rem;
+            width: 100%;
         }
+
 
     </style>
 
@@ -286,11 +296,12 @@
     <footer class="menu-container" id="menu3">
         <div class="menu-name">
             <h1>Contact</h1>
-
         </div>
         <div class="menu-item">
             <h2>대한민국 경기도 XX시 XX X로 103<br> XXX동 XXXX호</h2>
+            <br>
             <h2>Mail. tryjso@gmail.com</h2>
+            <br>
             <div>
                 <h2>Tel. 010-1234-5678</h2>
                 <ul class="SNS-logos intro-item">
@@ -300,6 +311,7 @@
                 </ul>  
             </div> 
         </div>
+
     </footer>
 
 </body>
