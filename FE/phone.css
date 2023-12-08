@@ -1,0 +1,171 @@
+* {
+    margin : 0px;
+    padding :0px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+a {
+    text-decoration : none;
+    
+}
+
+#name {
+    display : none;
+}
+
+
+header {
+    top : 0;
+    left : 0;
+    right : 0;
+    display: flex;
+    flex-direction : column;
+    justify-content : space-between;
+    align-items : center;
+    background-color : teal;
+    padding : 10px 20px;
+    position : fixed;
+}
+
+header a, header h2 {
+    color : #fff;
+}
+
+.tool-bar {
+    display: flex;
+    width : 100%;
+    justify-content : space-between;
+    align-items : center;
+}
+
+
+header > nav {
+    /* display : none; */
+    /* display : none; */
+    /* display : flex; */
+    flex-direction : column;
+    align-items : start;
+    align-self : flex-start;
+    padding : 7px 0px;
+    display : none;
+
+}
+
+
+#nav-menu.responsive {
+    display : flex;
+}
+
+header > nav > span {
+    padding : 3px 0px;
+}
+
+
+
+
+.intro-container {
+    margin-top : 48.5px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    width : 100%;
+}
+
+.intro {
+    display : flex;
+    flex-direction : column;
+    align-items : start;
+    margin : 20px 15px;
+    align-self : flex-start;
+}
+
+.intro-top {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.intro-item {
+    margin: 10px 0px;
+    overflow: scroll;
+}
+
+.SNS-logos {
+    display: flex;
+    list-style: none;
+}
+.SNS-logo {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+
+.details {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    color : black;
+    
+    
+}
+.details:hover {
+    background-color: brown;
+    color :#fff;
+    
+}
+
+/* 메뉴스타일 */
+
+.menu-container {
+    /* width: 100%; */
+    /* height : 800px; */
+    display: flex;
+    flex-direction : column;
+    justify-content: space-around;
+    padding : 20px 15px;
+}
+
+.menu-name {
+    display: flex;
+    flex-direction: column;
+    margin : 20px 0px;
+    /* justify-content: space-around; */
+    /* flex-grow : 1; */
+    /* width: 413px; */
+    /* background-color: blue; */
+    /* margin : 100px 0px; */
+
+}
+
+.menu-name  h1 {
+    font-size: 30px;
+}
+
+.menu-item {
+    /* flex-grow : 2; */
+    /* width: 500px; */
+    /* margin : 100px 0px; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+
+.menu-container:nth-child(2n) {
+    background-color: bisque;
+    color : #570e0e;
+}
+
+.skill-item {
+    padding-bottom: 20px;
+    /* color : brown; */
+}
+.project-item {
+    padding : 30px 0px;
+}
+
